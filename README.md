@@ -3,20 +3,23 @@
 A reusable React component library built with TypeScript and Vite, demonstrating type-safe, flexible, and composable UI components.
 
 Setup:
------
+
 
 Clone the repository
+
 git clone https://github.com/jayanthibs/component-library-lab-9.1.git
 cd component-library-lab-9.1/component-library
 
 Install Dependencies
+
 npm install
 
 Run development server
+
 npm run dev
 
 Components:
-----------
+
 1. AlertBox
 
 Displays a styled alert with optional close button and nested content.
@@ -31,7 +34,7 @@ Shows product information with optional description, stock status, add-to-cart b
 
 
 Reflections:
------------
+
 
 How did you handle optional props in your components?
 
