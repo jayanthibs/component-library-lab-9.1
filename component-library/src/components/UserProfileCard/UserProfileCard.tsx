@@ -28,21 +28,21 @@ function UserProfileCard({
           <img src={user.avatarUrl} alt={user.name} className="w-30 h-30" />
         )}
 
-        <div className="flex flex-col gap-[10px]">
+        <div className="flex flex-col gap-[10px] text-center">
           <p className="text-xl font-semibold">{user.name}</p>
-          {showEmail && <p className="opacity-75 text-md">{user.email}</p>}
-          {showRole && <p className="opacity-75 text-md">{user.role}</p>}
+          {showEmail && <p className="opacity-50 text-md">{user.email}</p>}
+          {showRole && <p className="opacity-50 text-md">{user.role}</p>}
         </div>
       </div>
 
-      {children}
+      {children && <p className="p-2">{children}</p>}
 
       {onEdit && (
         <button
           onClick={function () {
             onEdit(user.id);
           }}
-          className=" text-white bg-blue-500  hover:bg-blue-600 w-90 rounded-md pt-2 pb-2"
+          className=" text-white bg-blue-500  hover:bg-blue-600 w-90 rounded-md pt-2 pb-2 mt-4"
         >
           Edit Profile
         </button>

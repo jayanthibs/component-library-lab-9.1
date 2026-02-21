@@ -36,9 +36,9 @@ function ProductDisplay({
       <p className="font-bold text-blue-700 text-xl">${product.price}</p>
       { showDescription && <p className="text-lg text-gray-600">{product.description}</p> }
       { showStockStatus && <p className="text-green-600">{ product.inStock? "In Stock" : "Out Of Stock"}</p> }
-      {children}
+      {children && <p>{children}</p>}
 
-      {onAddToCart && (<button onClick = {function () {onAddToCart(product.id)}} className=" text-white bg-blue-500  hover:bg-blue-600 cursor-pointer w-190 rounded-md mb-20
+      {onAddToCart && product.inStock && (<button onClick = {function () {onAddToCart(product.id)}} className=" text-white bg-blue-500  hover:bg-blue-600 cursor-pointer w-190 rounded-md mb-20
       pt-2 pb-2 text-lg">Add To Cart</button>)}
 
       

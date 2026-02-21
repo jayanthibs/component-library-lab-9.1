@@ -28,7 +28,7 @@ function AlertBox({ type, message, onClose, children }: AlertBoxProps) {
             ×
           </button>
         )}
-        {children}
+        {children && <p>{children}</p>}
       </div>
     </div>
   );

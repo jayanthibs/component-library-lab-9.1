@@ -74,7 +74,7 @@ function App() {
         showRole={true}
         onEdit={(userId) => alert(`Editing user ${userId}`)}
       >
-        <div className="text-sm text-gray-500">Last login: 2 hours ago</div>
+        {/* <div className="text-sm text-gray-500">Last login: 2 hours ago</div> */}
       </UserProfileCard>
 
       {/* Rendering Product Display component */}
@@ -85,7 +85,7 @@ function App() {
         showStockStatus={true}
         onAddToCart={(productId) => alert(`Added product ${productId} to cart`)}
       >
-        <div className="text-sm text-gray-500">Free shipping available</div>
+        {/* <div className="text-sm text-gray-500">Free shipping available</div> */}
       </ProductDisplay>
 
       {/*  components composition */}

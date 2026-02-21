@@ -9,10 +9,11 @@ Setup:
 
 * Clone the repository
 
-
+```bash
 git clone https://github.com/jayanthibs/component-library-lab-9.1.git
 
 cd component-library-lab-9.1/component-library
+```
 
 * Install Dependencies
 
