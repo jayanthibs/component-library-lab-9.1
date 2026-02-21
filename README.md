@@ -1,5 +1,5 @@
                                        Component Library
-                                       -----------------
+                                       
 
 A reusable React component library built with TypeScript and Vite, demonstrating type-safe, flexible, and composable UI components.
 
@@ -17,12 +17,15 @@ cd component-library-lab-9.1/component-library
 
 * Install Dependencies
 
+```bash
 npm install
+```
 
 * Run development server
 
+```bash
 npm run dev
-
+```
 Components:
 ----------
 
