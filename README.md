@@ -1,4 +1,4 @@
-                                       <h2>Component Library</h2>
+                                       ##Component Library
                                        
 
 A reusable React component library built with TypeScript and Vite, demonstrating type-safe, flexible, and composable UI components.
